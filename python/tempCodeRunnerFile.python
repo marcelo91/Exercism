@@ -1,0 +1,9 @@
+def lose(power_pellet_active, touching_ghost):
+
+    # if power_pellet_active == False and touching_ghost == True:
+    #     return True
+    # else:
+    #     return False
+    return power_pellet_active == False and touching_ghost == True
+
+print(lose(False, True))
