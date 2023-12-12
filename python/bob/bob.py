@@ -9,8 +9,3 @@ def response(hey_bob):
         return "Sure."
     else:
         return "Whatever."
-
-var = 'clear \t'
-#print(set(var) <= set('\n\r\t'))
-# print(var.strip()[len(var.strip())-1])
-print(response(var))
