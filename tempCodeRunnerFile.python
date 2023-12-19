@@ -1,2 +1,0 @@
-x = 'square'
-print(x[x.index('qu')+2:] + x[0:x.index('qu')] + 'quay')
